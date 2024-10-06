@@ -1,10 +1,14 @@
 package employee;
 
 public class PartTimeEmployee extends Employee{
-
+	
+	public PartTimeEmployee() {
+		// default constructor
+	}
+	
 	@Override
 	public void clockIn() {
-		//implement
+		System.out.println("Clock in at 7:00 AM");
 	}
 	
 	@Override
@@ -14,6 +18,6 @@ public class PartTimeEmployee extends Employee{
 	
 	@Override
 	public void trackWorkHours() {
-		//implement
+		System.out.println("Part time employee works for 5 hours per day");
 	}
 }
