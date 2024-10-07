@@ -13,7 +13,7 @@ public class EMS {
 				"Manager",
 				40, 80000);
 		Employee partTimeEmployee = EmployeeFactory.createEmployee(
-				"partime",
+				"parttime",
 				"002",
 				"Bob",
 				"IT",
