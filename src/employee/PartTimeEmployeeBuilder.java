@@ -40,5 +40,10 @@ public class PartTimeEmployeeBuilder implements EmployeeBuilder{
 		this.salary = salary;
 		return this;
 	}
+	
+	@Override
+	public Employee build() {
+		return new PartTimeEmployee(id, name, department, role, workingHoursPerWeek, salary);
+	}
 
 }
